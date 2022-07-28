@@ -1,11 +1,29 @@
 body {
     font-size: 14px;
-    font-family: 'Poppins', 'Noto Sans','ubuntu', sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-stretch: extra-expanded;
     color: #7A778B;
-
+    margin : 50px;
+    background: #FAFAFF;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 h5{
     font-size: 16px;
+    font-weight: 300 ;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #312B6A;
+}
+h1{
+    font-size:32px;
+    font-weight: 900;
+    color: black;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+h2, h3, h4{
+    font-size: 18px;
+    font-weight: 500 ;
+    font-family: Verdana, Tahoma, sans-serif;
     color: #312B6A;
 }
