@@ -1,5 +1,6 @@
+*{box-sizing: border-box;}
 body {
-    font-size: 14px;
+    font-size: 16px;
     font-family: Verdana, Tahoma, sans-serif;
     font-stretch: extra-expanded;
     color: #7A778B;
@@ -14,6 +15,7 @@ h5{
     font-weight: 300 ;
     font-family: Verdana, Tahoma, sans-serif;
     color: #312B6A;
+    padding-bottom: 0px;
 }
 h1{
     font-size:32px;
@@ -26,4 +28,7 @@ h2, h3, h4{
     font-weight: 500 ;
     font-family: Verdana, Tahoma, sans-serif;
     color: #312B6A;
+}
+span{
+    padding: 0px;
 }
