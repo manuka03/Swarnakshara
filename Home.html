@@ -10,19 +10,24 @@
 		color : #7A778B;
 	}
 	#box{
-		width : 160px;
+		width : 180px;
 		text-align: center;
 		padding: 20px;
 		font-family: Verdana, Tahoma, sans-serif;
 		font-size: 14px;
 		display: inline-block;
+		
 	}
 	#b2{
-		width : 200px;
+		position: relative;
+		width : 230px;
+		height: 430px;
 		text-align: left;
 		padding: 20px;
 		font-family: Verdana, Tahoma, sans-serif;
 		display: inline-block;
+
+		margin-top:20px;
 	}
 	#sidebar{
 		width :20%;
@@ -55,6 +60,20 @@
 		display: inline-block;
 		overflow: auto;
 		box-sizing: border-box;
+	}
+	#b3{
+		position: absolute;
+		top:27px;
+		left:25px;
+		width:180px;
+		height:425px;
+		text-align: left;
+	}
+	#b2:hover , #b2:active{
+		background: #E7E7FF;
+		border-radius: 15px;
+		box-shadow: 2px 1px 10px 2px #c0c0c0;
+		
 	}
 	</style>
 	
@@ -100,16 +119,20 @@
 <br>
 <br><h4> Some of our previous artworks...</h4>
 <div>Note : The prices are indicative and may vary slightly, a piece ordered from here would have a similiar design but since it is handpainted... It wont be an exact copy.</div>
+<a href="categories.html">
 <div id = "b2">
-<img src="Kamalkunj1.jpg" width = "180" height = "240">
+<div id="b3">
+<img id ="img1" src="Kamalkunj1.jpg" width = "180" height = "240">
 <h5>Kamal Kunj</h5><span>Synthetic silk kurta with statement lotuses.</span>
-<div> &#x20b9; 1,101</div></div>
+<div> &#x20b9; 1,101</div></div></div></a>
 
-<div id = "b2">
+<a href="categories.html">
+<div id = "b2" >
+<div id = "b3">
 <img src="Roselina1.png" width = "180" height = "240">
 <h5>Roselina </h5>
 <span>Inspired by the beauty of dutch roses.</span>
-<div> &#x20b9; 1,101</div></div>
+<div> &#x20b9; 1,101</div></div></div></a>
 </div>
 </div>	
 </body>
