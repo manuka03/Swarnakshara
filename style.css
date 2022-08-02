@@ -1,26 +1,8 @@
 *{box-sizing: border-box;}
 
-@font-face {
-    font-family: 'poppinsregular';
-    src: url('poppins-regular.woff2') format('woff2'),
-         url('poppins-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ralewaymedium';
-    src: url('raleway-medium.woff2') format('woff2'),
-         url('raleway-medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-size: 16px;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-stretch: extra-expanded;
+    font-family: 'PoppinsI', serif;
     color: #7A778B;
     margin : 50px;
     background: #FAFAFF;
@@ -33,7 +15,7 @@ body {
 h5{
     font-size: 16px;
     font-weight: 300 ;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'poppinsregular';
     color: #312B6A;
     padding-bottom: 0px;
 }
@@ -51,6 +33,40 @@ h2, h3, h4{
 }
 span{
     padding: 0px;
+}
+#sidebar{
+    width :20%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    bottom: 0px;
+    text-align: left;
+    padding-top:30px;
+    padding-left:2%;
+    padding-right:2%;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 0px 16px lightgray;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    box-sizing: border-box;
+    
+    
+}
+#side{
+    width : 80%;
+    height: 100%;
+    position:absolute;
+    left: 20%;
+    top: 0%;
+    text-align: left;
+    padding: 40px;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: inline-block;
+    overflow: auto;
+    box-sizing: border-box;
 }
 span:active , div:active{
     font-family:Verdana, Tahoma, sans-serif;
@@ -106,8 +122,7 @@ span:active , div:active{
 }
 
 #tab1{
-    font-family: 'poppinsregular';
-    
+    font-family: 'poppinsregular'; 
     font-size:18px;
 }
 
@@ -151,7 +166,6 @@ h1#owncat{
     left:1200px;
     top:150px;
     display: inline-block;
-    
     font-size:36px;
 }
 
@@ -162,7 +176,6 @@ div#owncat{
     width:205px;
     line-height: 1.687;
     color:#2A2A2A;
-    
     font-size:16px;
     display: inline-block;
 }
@@ -173,4 +186,160 @@ img#owncat{
     top:310px;
     display: inline-block;
 
+}
+
+@font-face {
+    font-family: "PoppinsI";
+    src: url('fontstyle/Poppins-BlackItalic.woff2') format('woff2'),
+        url('fontstyle/Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins B';
+    src: url('fontstyle/Poppins-Black.woff2') format('woff2'),
+        url('fontstyle/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins EB';
+    src: url('fontstyle/Poppins-ExtraBold.woff2') format('woff2'),
+        url('fontstyle/Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins R';
+    src: url('fontstyle/Poppins-Regular.woff2') format('woff2'),
+        url('fontstyle/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins M';
+    src: url('fontstyle/Poppins-Medium.woff2') format('woff2'),
+        url('fontstyle/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins L';
+    src: url('fontstyle/Poppins-Light.woff2') format('woff2'),
+        url('fontstyle/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins EL';
+    src: url('fontstyle/Poppins-ExtraLight.woff2') format('woff2'),
+        url('fontstyle/Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Poppins SB';
+    src: url('fontstyle/Poppins-SemiBold.woff2') format('woff2'),
+        url('fontstyle/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Poppins T';
+    src: url('fontstyle/Poppins-Thin.woff2') format('woff2'),
+        url('fontstyle/Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway EL';
+    src: url('fontstyle/Raleway-ExtraLight.woff2') format('woff2'),
+        url('fontstyle/Raleway-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Raleway B';
+    src: url('fontstyle/Raleway-Bold.woff2') format('woff2'),
+        url('fontstyle/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway L';
+    src: url('fontstyle/Raleway-Light.woff2') format('woff2'),
+        url('fontstyle/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway EB';
+    src: url('fontstyle/Raleway-ExtraBold.woff2') format('woff2'),
+        url('fontstyle/Raleway-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway ET';
+    src: url('fontstyle/Raleway-Thin.woff2') format('woff2'),
+        url('fontstyle/Raleway-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway SB';
+    src: url('fontstyle/Raleway-SemiBold.woff2') format('woff2'),
+        url('fontstyle/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway N';
+    src: url('fontstyle/Raleway.woff2') format('woff2'),
+        url('fontstyle/Raleway.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway M';
+    src: url('fontstyle/Raleway-Medium.woff2') format('woff2'),
+        url('fontstyle/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
