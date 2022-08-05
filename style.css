@@ -183,6 +183,22 @@ span{
    #tab{
     width:32%;
     display: inline-block;
+    
+   }
+   .t1{
+    position:absolute;
+    left: 15%;
+    top:35%;
+   }
+   .t2{
+    position:absolute;
+    left: 45%;
+    top:35%;
+   }
+   .t3{
+    position:absolute;
+    left: 75%;
+    top:35%;
    }
    li{
     display: inline;
