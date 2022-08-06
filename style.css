@@ -18,7 +18,7 @@ body {
     font-size: 14px;
     display: inline-block;
     font-family: "Poppins L";
-    
+    vertical-align: middle;
 }
 
 
@@ -83,6 +83,9 @@ span{
 }
 @media (max-width:767px)
 {
+    .book{
+        font-size: calc(2.5vw);
+    }
     #blogo{position:absolute;
     left:5%;
     top:0px;
@@ -91,13 +94,30 @@ span{
     display: inline block;
     
 }  
+#saree
+{
+    width: 50%;
+    display: inline-block;
+}
+#dupatta{
+    width: 50%;
+    display: inline-block;
+} #kurta{
+    width: 50%;
+    display: inline-block;
+}
+ #ethnic{
+    width: 50%;
+    display: inline-block;
+}
 #b3{
     width:45%;
     position: relative;
     left:0%;
-    top:0%;
-    padding: 2%;
+    padding: 5%;
     display: inline-block;
+    vertical-align: top;
+    margin:auto;
 }
 #box{
     width:45%;
@@ -125,7 +145,7 @@ span{
     }
     #side{
         width : 100%;
-        height:  100%- 60px;
+        height:  100%;
         position:absolute;
         left: 0;
         top: 0%;
@@ -140,6 +160,7 @@ span{
     }
     #sidebar{
         position: fixed;
+        left:0px;
         bottom: 0px;
         height: 60px;
         width: 100%;
@@ -158,8 +179,6 @@ span{
     
     div#owncat{
         position:absolute;
-        left:200px;
-        top:430px;
         width:205px;
         line-height: 1.687;
         color:#2A2A2A;
@@ -169,8 +188,6 @@ span{
     
     #owncat{
         position:absolute;
-        left:200px;
-        top: 430px;
         display: inline-block;
        
     
@@ -234,6 +251,10 @@ span{
  text-align: center; width: 200px; border-radius: 50px; background-color: #7D74ED; padding: 0.6em; color: aliceblue; 
 }
 #cost{
+    display: inline-block;
+}
+#d{
+    width:30%;
     display: inline-block;
 }
 
@@ -393,39 +414,7 @@ span{
         display: inline-block;
     
     }
-   
-}
-
-
-span:active , div:active{
-    color: #312B6A;
-}
-
-
-#insta , #insta:link , #insta:active , #insta:visited , #insta:hover{
-    color:#312B6A;
-}
-
-
-
-#tab3{
-    color:#7A778B;
     
-}
-
-#tab1{
-    position: absolute;
-    top: -2px;
-    font-size:16px;
-}
-
-#tab4{
-    color:#7A778B;
-    
-    
-    font-size:18px;
-}
-
 #saree{
     position: absolute;
     left:80px;
@@ -481,6 +470,39 @@ img#owncat{
    
 
 }
+   
+}
+
+
+span:active , div:active{
+    color: #312B6A;
+}
+
+
+#insta , #insta:link , #insta:active , #insta:visited , #insta:hover{
+    color:#312B6A;
+}
+
+
+
+#tab3{
+    color:#7A778B;
+    
+}
+
+#tab1{
+    position: absolute;
+    top: -2px;
+    font-size:16px;
+}
+
+#tab4{
+    color:#7A778B;
+    
+    
+    font-size:18px;
+}
+
 
 
 @font-face {
