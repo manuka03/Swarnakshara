@@ -9,33 +9,11 @@
     <style>
         .style {
             color : #7A778B;
-        }
-
-        a:link , a:visited{
-            text-decoration: none;
-        }
-        #tabs{
-            list-style: none;
-        }
-        .presenttab{
-            background: #E7E7FF;
-            border-radius: 5px;
-            color:#5F5B85;
-        }
-        #tab{
-            font-family: 'Raleway';
-        }
-        #tab1{
-		    position: relative;
-		    top :-24px;
-		    left :10px;
-		    text-indent: 16px;
-	    }
-      
+        }    
     </style>
 </head>
 <body>
-    <div id = "sidebar">
+  <div id = "sidebar">
 
 		<a class="hide" herf="Home.html">
 	  
@@ -47,10 +25,10 @@
 		
 		  <ul id="tabs">
 	  
-		  <a id = "tab2" href="Home.html">
+		  <a id = "tab2" class="presenttab" href="Home.html">
 	  
-			<li id = "tab">
-			  <img src="icons/hicon.svg" >
+			<li id = "ptab" class ="t1">
+			  <img src="icons/Ahicon.svg" >
 			  <div class= "hide" id = "tab1"> 
 				Home
 			  </div> 
@@ -60,11 +38,11 @@
 	  
 		  </a>
 	  
-		  <a id = "tab2" class="presenttab" href ="categories.html">
+		  <a id = "tab2" href ="categories.html">
 	  
-			<li id = "ptab" style="font-style: normal;">
+			<li id = "tab" style="font-style: normal;" class="t2">
 	  
-			  <img src= "icons/Acaticon.svg">
+			  <img src= "icons/caticon.svg">
 	  
 			  <div class="hide" id = "tab1"> 
 	  
@@ -83,7 +61,7 @@
 	  
 		  <a id = "tab2" href="https://docs.google.com/forms/d/e/1FAIpQLSexTK2TxXWEl9ICqNI_8lLLts2pwPtO7Mshh8osC1I1m2n7FA/viewform?usp=sf_link" target = "_blank">
 	  
-			<li id = "tab">
+			<li id = "tab"  class ="t3">
 			  <img src="icons/ficon.svg"> 
 			  <div class="hide" id = "tab1">
 				Feedback
@@ -95,7 +73,8 @@
 		</ul>
 		
 	  
-		<img class=" hide" src ="icons/line.svg">
+		<!-- <img class=" hide" src ="icons/line.svg"> -->
+		<hr style="width: 20 vw;" class="hide">
 		
 		<div class= " hide" id="tab4">
 			<br>
@@ -143,7 +122,11 @@
 	  
 	  </div>
 
+
     <div id = "side">
+      <div id="blogo" class="hiden" width="90%" ><img src="logo.svg" width="90%" >
+        <hr class="hiden" width = 180% color=#BAB9BF></div>
+      
         <h1>Categories </h1>
         <a href ="#s">
         <div id="saree">

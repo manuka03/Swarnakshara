@@ -96,6 +96,8 @@ span{
     position: relative;
     left:0%;
     top:0%;
+    padding: 2%;
+    display: inline-block;
 }
 #box{
     width:45%;
@@ -105,6 +107,7 @@ span{
     position:absolute;
     top:40px;
     right:40px;
+    
 }
 
  #spaceforl{
