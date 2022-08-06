@@ -94,20 +94,20 @@ span{
     display: inline block;
     
 }  
-#saree
+#saree 
 {
-    width: 50%;
+    width: 45%;
     display: inline-block;
 }
 #dupatta{
-    width: 50%;
+    width: 45%;
     display: inline-block;
 } #kurta{
-    width: 50%;
+    width: 45%;
     display: inline-block;
 }
  #ethnic{
-    width: 50%;
+    width: 45%;
     display: inline-block;
 }
 #b3{
@@ -145,7 +145,6 @@ span{
     }
     #side{
         width : 100%;
-        height:  100%;
         position:absolute;
         left: 0;
         top: 0%;
@@ -170,27 +169,28 @@ span{
     }
 
     h1#owncat{
-        position:absolute;
-        left:50%;
-        top:50%;
+        position:relative;
+        left:100%;
+        width:40%;
         display: inline-block;
         font-size:36px;
     }
     
     div#owncat{
-        position:absolute;
+       position: relative;
+        left :20%;
         width:205px;
         line-height: 1.687;
         color:#2A2A2A;
         font-size:16px;
-        display: inline-block;
+        display: block;
     }
     
     #owncat{
-        position:absolute;
-        display: inline-block;
-       
-    
+        position: relative;
+        left: 30%;
+        display: block;
+
     }
    .hide{
     visibility:hidden;
@@ -253,15 +253,21 @@ span{
 #cost{
     display: inline-block;
 }
-#d{
-    width:30%;
-    display: inline-block;
-}
+
 
 }
     
 @media(min-width:768px)
 {
+    #secs{
+        position: absolute;
+        top:750px;
+    
+    }
+    hr{
+        visibility:hidden;
+        display: none;
+    }
     .hiden{
         visibility:hidden;
         display: none;
@@ -289,7 +295,16 @@ span{
     #blogo{
         position:absolute; left:1350px; top:670px;
     }
-
+    #orderb{
+        position: absolute;
+        top:55vh;
+        left:75vw;
+    }
+    #cost{
+        position:relative;
+        top:50vh;
+        left:32vw;
+    }
     h1#owncat{
         position:absolute;
         left:1200px;
