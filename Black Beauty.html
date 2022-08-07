@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Swarnakshara </title>
+<link = rel ="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<style>
+*{ padding: 0px; margin : 0px; box-sizing: border-box; }
+body{background: #FAFAFF; background-image: url("circle.svg"); background-repeat: no-repeat; background-position: 340px 280px; background-attachment: fixed; padding: 5%; padding-bottom: 10%; font-size: larger;}
+</style>
+</head>
+<body>
+<a id ="it"  href = "Home.html"  id=""><img src="backarrow.svg"></a>
+<div id="spaceforl"><br><br><br></div>
+<div id="out"><img src="Black Beauty.png" width="100%" class="hide" >
+<div class="swiper hiden" >
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="Black Beauty.png" width="100%"></div>
+<div class="swiper-slide"><img src="Black Beauty1.png" width="100%"></div>
+<div class="swiper-slide"><img src="Black Beauty2.png" width="100%"></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-scrollbar"></div>
+</div>
+</div>
+<div id ="out1">
+<h1>Black Beauty</h1>
+<br>
+<h5>Bold black dupatta with needlework</h5>
+<br>
+Pair this statement dupatta with a plain kurti. <br> This dupatta is embroidered with reshim strands.<br><br><br>
+</div>
+<div id="cost" style ="font-size: 1.2em;"> &#x20b9;1500</div>
+<a href = "https://forms.gle/MANUz25Fq4J1yHhc9" target="_blank">
+<div id="orderb" >Book an order</div>
+</a>
+<div id = "out2">
+<img src="Black Beauty1.png" width="230px" >
+<br>
+<img src="Black Beauty2.png" width="230px" >
+</div>
+<div id="blogo" ><img src="logo.svg" width="90%"></div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper',{
+loop:'true',
+pagination: {
+el:'.swiper-pagination',
+},
+scrollbar:{
+el:'.swiper-scrollbar',
+},
+}
+)
+</script>
+</body>
+</html>

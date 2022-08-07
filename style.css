@@ -1,6 +1,5 @@
 *{box-sizing: border-box;}
 
-
 body {
     font-size: 16px;
     font-family: 'Raleway N';
@@ -84,6 +83,9 @@ span{
 }
 @media (max-width:767px)
 {
+    #img{
+        height:260px;
+    }
     .desc{
         height:80px;
         vertical-align: top;
@@ -139,7 +141,6 @@ span{
     position:absolute;
     top:40px;
     right:40px;
-    
 }
 
  #spaceforl{
@@ -271,8 +272,11 @@ span{
     
 @media(min-width:768px)
 {
+    #img{
+        height:260px;
+    }
     .desc{
-        height:60px;
+        height:100px;
         vertical-align: top;
         display: inline-block;
     }
@@ -312,7 +316,7 @@ span{
          
     }
     #blogo{
-        position:absolute; left:1350px; top:670px;
+        position:absolute; left:100px; top:670px;
     }
     #orderb{
         position: absolute;
@@ -395,6 +399,10 @@ span{
         left:10px;
         color:#5F5B85;
     }
+    #it{
+        position: fixed;
+        z-index:7;
+    }
     #out{
         width : 500px;
         text-align: left;
@@ -405,7 +413,7 @@ span{
         padding-top: 100px;
         padding-left: 100px;
         padding-bottom: 50px;
-       
+       z-index:1;
     }
     #out1{
         width : 700px;
