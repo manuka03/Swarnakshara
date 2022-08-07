@@ -21,17 +21,17 @@ body {
     vertical-align: middle;
 }
 
-
 #b3{
     position: relative;
-    top:27px;
-    left:25px;
     width:220px;
     display: inline-block;
     text-align: left;
     padding: 20px;
-    
+    height: 450px;
+    color:#39383e;
+    vertical-align: top;
 }
+
 
 #b3:hover , #b3:active{
     background: #E7E7FF;
@@ -45,12 +45,13 @@ a:link , a:visited{
 
 #tabs{
     list-style: none;
+    padding-left: 0px;
 }
 #tab1{
     position: relative;
     top :-24px;
-    left :10px;
-    text-indent: 16px;
+    left : 10%;
+    text-indent: 30px;
 }
 .presenttab{
     background: #E7E7FF;
@@ -86,6 +87,7 @@ span{
     .book{
         font-size: calc(2.5vw);
     }
+
     #blogo{position:absolute;
     left:5%;
     top:0px;
@@ -264,10 +266,7 @@ span{
         top:750px;
     
     }
-    hr{
-        visibility:hidden;
-        display: none;
-    }
+  
     .hiden{
         visibility:hidden;
         display: none;
@@ -275,7 +274,7 @@ span{
     #sidebar{
         width :20%;
         height: 100%;
-        position: absolute;
+        position: fixed;
         left: 0px;
         top:0px;
         bottom: 0px;
@@ -517,7 +516,14 @@ span:active , div:active{
     
     font-size:18px;
 }
+@media(height<675px){
 
+    .hideh{
+        visibility:collapse;
+        display:none ;
+
+    }
+}
 
 
 @font-face {
