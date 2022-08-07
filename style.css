@@ -1,5 +1,6 @@
 *{box-sizing: border-box;}
 
+
 body {
     font-size: 16px;
     font-family: 'Raleway N';
@@ -27,7 +28,6 @@ body {
     display: inline-block;
     text-align: left;
     padding: 20px;
-    height: 450px;
     color:#39383e;
     vertical-align: top;
 }
@@ -84,6 +84,16 @@ span{
 }
 @media (max-width:767px)
 {
+    .desc{
+        height:80px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    #cos{
+        height:36px;
+        vertical-align: top;
+        display: inline-block;
+    }
     .book{
         font-size: calc(2.5vw);
     }
@@ -261,6 +271,16 @@ span{
     
 @media(min-width:768px)
 {
+    .desc{
+        height:60px;
+        vertical-align: top;
+        display: inline-block;
+    }
+    #cos{
+        height:36px;
+        vertical-align: top;
+        display: inline-block;
+    }
     #secs{
         position: absolute;
         top:750px;
